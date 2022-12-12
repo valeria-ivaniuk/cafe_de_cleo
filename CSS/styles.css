@@ -1,8 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
-body {
+body{
     background-color: rgb(221, 221, 221);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     font-family: 'Merienda', cursive;
     color: brown;
 }
+
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    color: rgb(42, 39, 39);
+}
+    header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+    align-content:center;
+    margin: 0px 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.card{
+display: flex;
+flex-direction: column;
+width: 25%;
+height: auto;
+background-color: white;
+padding: 20px;
+}
+
+h3{
+    color: rgb(42, 39, 39);
+}
+
